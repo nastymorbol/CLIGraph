@@ -116,11 +116,6 @@ namespace CLIGraphPlotter
                 catch { }
             }
 
-            public struct GraphPixel
-            {
-                public int Pixels { get; set; }
-                public ConsoleColor ForegroundColor { get; set; }
-                public ConsoleColor BackgroundColor { get; set; }
-            }
+
         }
 }

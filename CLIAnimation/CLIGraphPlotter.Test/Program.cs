@@ -25,7 +25,7 @@ namespace CLIGraphPlotter.Test
                 pltr.Update(random.NextDouble() * 100.0);
                 pltr2.Update(random.NextDouble() * 100.0);
                 Console.CursorVisible = true;
-                Thread.Sleep(5000);
+                Thread.Sleep(250);
             }
         }
     }

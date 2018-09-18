@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLIGraphPlotter", "CLIGraphPlotter\CLIGraphPlotter.csproj", "{3AD16B1A-6144-4E8B-84AF-4276C9FB96BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLIGraphPlotter.Test", "CLIGraphPlotter.Test\CLIGraphPlotter.Test.csproj", "{5C6307EA-D51F-4373-9345-F4CB5BCC7ECF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3AD16B1A-6144-4E8B-84AF-4276C9FB96BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AD16B1A-6144-4E8B-84AF-4276C9FB96BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AD16B1A-6144-4E8B-84AF-4276C9FB96BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6307EA-D51F-4373-9345-F4CB5BCC7ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6307EA-D51F-4373-9345-F4CB5BCC7ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6307EA-D51F-4373-9345-F4CB5BCC7ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6307EA-D51F-4373-9345-F4CB5BCC7ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

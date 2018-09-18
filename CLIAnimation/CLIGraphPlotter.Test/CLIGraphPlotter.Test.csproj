@@ -1,8 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   
   <PropertyGroup>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   
+  <ItemGroup>
+    <ProjectReference Include="..\CLIGraphPlotter\CLIGraphPlotter.csproj" />
+  </ItemGroup>
 </Project>
